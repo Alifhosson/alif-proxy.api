@@ -1,0 +1,22 @@
+{
+  "name": "alif-proxy.api",
+  "version": "1.0.0",
+  "description": "A proxy API using free proxy lists",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "vercel": "vercel dev"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "https-proxy-agent": "^5.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["proxy", "api", "vercel"],
+  "author": "ALIF",
+  "license": "MIT"
+}
